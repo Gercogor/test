@@ -40,23 +40,32 @@ ul li {
     color: white;
 }
 
-.menu {
+.nav__panel {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.menu li a {
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu__item {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 14px;
-    letter-spacing: 0.1em;
-}
-
-.menu li {
     list-style-type: none;
-    margin-right: 40px;
+    letter-spacing: 0.1em;
+    margin-right: 2rem;
 }
 
-.tel {
+.menu__button {
+    text-decoration: none;
+}
+
+.nav__tel{
     text-decoration: none;
     letter-spacing: 0.1em;
 }
