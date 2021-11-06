@@ -1,0 +1,163 @@
+header {
+    background-image: url(pic/header-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    font-family: "Anton";
+    font-style: normal;
+    font-weight: normal;
+}
+
+h1 h2 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul li {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 57px;
+}
+
+.nav a {
+    color: white;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+.menu li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.tel {
+    text-decoration: none;
+    letter-spacing: 0.1em;
+}
+
+.intro {
+    display: block;
+    margin-top: 216px;
+    color: white;
+    text-decoration: none;
+    padding-bottom: 338px;
+}
+
+.intro h1 {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+}
+
+.intro h2 {
+    font-size: 100px;
+    /* letter-spacing: 0.1em; */
+    font-family: "Anton";
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: -9px;
+}
+
+.intro a {
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    padding: 17px 23px;
+    border: 1px solid white;
+    width: 192px;
+}
+
+#about {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 150px;
+}
+
+#about h1 {
+    font-family: "Anton";
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.container_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: dense;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    margin: 0 auto;
+}
+
+.text {
+    font-size: 16px;
+    font-family: "Frukfurt";
+    text-align: justify;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2em;
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.img1 {
+    margin-top: 1em;
+}
+
+footer .container {
+    display: flex;
+}
+
+footer .container p {
+    margin-right: 50px;
+}
+
+@font-face {
+    font-family: "Anton";
+    src: url("fonts/Anton-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Fruktur";
+    src: url("fonts/Fruktur-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
